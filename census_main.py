@@ -44,9 +44,9 @@ census_df = load_data()
 import streamlit as st
 # Configure your home page.
 st.set_page_config(page_title = "Census Visualisation Web App",
-                   page_icon = ":spark:",
+                   page_icon = "💥",
                    layout = "centered",
-                   initial_sidebar_state = None)
+                   initial_sidebar_state = "auto")
 
 # Set the title to the home page contents.
 st.title("Census Visualisation Web App")
