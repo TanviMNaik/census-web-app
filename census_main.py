@@ -78,4 +78,5 @@ with beta_3:
     st.write(census_df[col])
 
 # Display summary of the dataset on the click of checkbox.
-st.checkbox("Show summary")
+if st.checkbox("Show summary"):
+  st.table(census_df.describe())
